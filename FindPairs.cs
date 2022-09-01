@@ -13,17 +13,17 @@ public static class FindPairs
 {
     public static void Run()
     {
-        DisplayPairs(new string[] { "am", "at", "ma", "if", "fi" }); // ma & am, fi & if
+        DisplayPairs(new[] { "am", "at", "ma", "if", "fi" }); // ma & am, fi & if
         Console.WriteLine("=============");
-        DisplayPairs(new string[] { "ab", "bc", "cd", "de", "ba" }); // ba & ab
+        DisplayPairs(new[] { "ab", "bc", "cd", "de", "ba" }); // ba & ab
         Console.WriteLine("=============");
-        DisplayPairs(new string[] { "ab", "ba", "ac", "ad", "da", "ca" }); // ba & ab, da & ad, ca & ac
+        DisplayPairs(new[] { "ab", "ba", "ac", "ad", "da", "ca" }); // ba & ab, da & ad, ca & ac
         Console.WriteLine("=============");
-        DisplayPairs(new string[] { "ab", "ac" }); // None
+        DisplayPairs(new[] { "ab", "ac" }); // None
         Console.WriteLine("=============");
-        DisplayPairs(new string[] { "ab", "aa", "ba" }); // ba & ab
+        DisplayPairs(new[] { "ab", "aa", "ba" }); // ba & ab
         Console.WriteLine("=============");
-        DisplayPairs(new string[] { "23", "84", "49", "13", "32", "46", "91", "99", "94", "31", "57", "14" });
+        DisplayPairs(new[] { "23", "84", "49", "13", "32", "46", "91", "99", "94", "31", "57", "14" });
         // 32 & 23, 94 & 49, 31 & 13
     }
 
