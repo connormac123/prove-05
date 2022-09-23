@@ -9,10 +9,8 @@ namespace prove_05;
  * to post it online.  Storage into a personal and private repository (e.g. private
  * GitHub repository, unshared Google Drive folder) is acceptable.
  */
-public static class FindPairs
-{
-    public static void Run()
-    {
+public static class FindPairs {
+    public static void Run() {
         DisplayPairs(new[] { "am", "at", "ma", "if", "fi" }); // ma & am, fi & if
         Console.WriteLine("=============");
         DisplayPairs(new[] { "ab", "bc", "cd", "de", "ba" }); // ba & ab
@@ -43,16 +41,7 @@ public static class FindPairs
     /// that there were no duplicates) and therefore should not be displayed.
     /// </summary>
     /// <param name="words">An array of 2-character words (lowercase, no duplicates)</param>
-    private static void DisplayPairs(string[] words)
-    {
-        var seenBefore = new HashSet<string>();
-        foreach (var word in words)
-        {
-            var pair = $"{word[1]}{word[0]}";
-            if (seenBefore.Contains(pair))
-                Console.WriteLine($"{word} & {pair}");
-            else
-                seenBefore.Add(word);
-        }
+    private static void DisplayPairs(string[] words) {
+        // TODO Problem 2
     }
 }
