@@ -42,6 +42,6 @@ public static class FindPairs {
     /// </summary>
     /// <param name="words">An array of 2-character words (lowercase, no duplicates)</param>
     private static void DisplayPairs(string[] words) {
-        // TODO Problem 2
+        // TODO Problem 2 (don't forget to fill out the 05-prove-response.md)
     }
 }

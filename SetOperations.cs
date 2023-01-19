@@ -29,7 +29,7 @@ public static class SetOperations {
     /// <param name="set2">A set of integers</param>
     private static HashSet<int> Intersection(HashSet<int> set1, HashSet<int> set2) {
         var result = new HashSet<int>();
-        // TODO Problem 1.1
+        // TODO Problem 1.1 (don't forget to fill out the 05-prove-response.md)
         return result;
     }
 
@@ -40,7 +40,7 @@ public static class SetOperations {
     /// <param name="set2">A set of integers</param>
     private static HashSet<int> Union(HashSet<int> set1, HashSet<int> set2) {
         var result = new HashSet<int>();
-        // TODO Problem 1.2
+        // TODO Problem 1.2 (don't forget to fill out the 05-prove-response.md)
         return result;
     }
 }
