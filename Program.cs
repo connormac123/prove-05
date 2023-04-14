@@ -1,7 +1,14 @@
 ﻿using prove_05;
 
-Console.WriteLine("\n======================\nSet Operations\n======================");
-SetOperations.Run();
+/*
+ * CSE212 
+ * (c) BYU-Idaho
+ * 05-Prove
+ * 
+ * It is a violation of BYU-Idaho Honor Code to post or share this code with others or 
+ * to post it online.  Storage into a personal and private repository (e.g. private
+ * GitHub repository, unshared Google Drive folder) is acceptable.
+ */
 
-Console.WriteLine("\n======================\nFind Pairs\n======================");
-FindPairs.Run();
+Console.WriteLine("\n======================\nProve 5 - Sets\n======================");
+SetTests.Run();
