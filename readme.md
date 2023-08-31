@@ -27,5 +27,5 @@ Examine the `05-prove-response.md` document to provide your answers to questions
 
 ## Submission
 You need to submit the following for this assignment:
-* Make sure all of your changes are committed and pushed to the `main` branch of your **prove-05-[username]** repository
+* Make sure all of your changes are committed and pushed to the `main` branch of your **prove-05** repository
 * Submit a link to your repository in I-Learn
