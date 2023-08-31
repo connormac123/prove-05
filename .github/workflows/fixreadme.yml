@@ -16,7 +16,7 @@ jobs:
         - name: Checkout source code
           uses: actions/checkout@v2
 
-        - run: curl --url https://raw.githubusercontent.com/byui-cse/cse212-csharp/main/docs/lesson05/prove.md | sed -e '1,5d' > readme.md
+        - run: curl --url https://raw.githubusercontent.com/byui-cse/cse212-csharp/main/docs/lesson05/prove.md | sed -e '1,5d' | sed 's#prove-[0-9][0-9]-\[username]#\${{github.event.repository.name}}#g' > readme.md
 
         - name: push
           uses: EndBug/add-and-commit@v9
