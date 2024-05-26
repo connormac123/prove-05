@@ -16,7 +16,13 @@ Since the purpose of the union is to return all common items in both sets into a
 
 **Question 2:**  From Part 2, how did you answer the interview question for the Find Pairs problem (should be no more than 30 seconds if spoken aloud)?
 
-(fill in here)
+I would first intialize a set to keep of words encountered
+iterate through each word on the list. 
+For each word I would reverse to find any symmetric pairs.
+Check if reversed words exist in a set.
+If yes we pound a symmetric pair, we can display that
+if not return word to list 
+Continue for all words. 
 
 ------------------------------------------
 
