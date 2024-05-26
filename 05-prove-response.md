@@ -9,8 +9,10 @@ _It is a violation of BYU-Idaho Honor Code to post or share this document with o
 ------------------------------------------
 
 **Question 1:**  From Part 1, how did you answer the interview question for the Set Operations problem (should be no more than 30 seconds if spoken aloud)?
+Since the purpose of the union is to return all common items in both sets into a new one I would either use the intersection the
+& function as both functions are effective and preform at an 0(1) on average time complexity. 
 
-(fill in here)
+
 
 **Question 2:**  From Part 2, how did you answer the interview question for the Find Pairs problem (should be no more than 30 seconds if spoken aloud)?
 
